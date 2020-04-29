@@ -1,0 +1,33 @@
+
+#container {
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    width: 980px;
+    height: 140px;
+    background: darkgreen;
+}
+
+.sidebar {
+    width: 270px;
+    height: 450px;
+    background:darkred;
+    float: left;
+}
+
+.content {
+    width: 710px;
+    height: 450px;
+    background: darkmagenta;
+    float: right;  
+}
+
+.footer {
+    width: 980px;
+    height: 70px;
+    background:darkslateblue;
+    clear: both;
+}
