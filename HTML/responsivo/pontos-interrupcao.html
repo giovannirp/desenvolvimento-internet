@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        @media only screen and (max-width: 600px) {
+        .exemplo {background: red;}
+        }
+
+        /* Small devices (tablets and  phones, 600px ) */
+        @media only screen and (min-width: 600px) {
+        .exemplo {background: green;}
+        }
+
+        /*(tablets, 768px ) */
+        @media only screen and (min-width: 768px) {
+        .exemplo {background: blue;}
+        } 
+
+        /*(laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+        .exemplo {background: orange;}
+        } 
+
+        /* (desktops, 1200px ) */
+        @media only screen and (min-width: 1200px) {
+        .exemplo {background: pink;}
+        }
+    </style>
+</head>
+<body>
+
+    <p class="exemplo">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Nemo sunt nesciunt accusamus, voluptates asperiores maiores minus 
+        aliquid a pariatur magni distinctio mollitia, 
+        similique unde porro esse reiciendis officiis eveniet laboriosam!
+    </p>
+    
+</body>
+</html>
