@@ -1,7 +1,7 @@
 body {
-    background-color: #696969;
+    background: url("../img/bg_fundo.jpg");
+    background-position: center;
 }
-
 
 .login {
     max-width: 400px;
@@ -95,7 +95,7 @@ body {
 
 @media only screen and (max-width: 400px) {
     body {
-        background-color: #ffffff;
+        background: #ffffff;
     }
 
     .login {
@@ -104,5 +104,10 @@ body {
 
     .txt-saiba-mais {
         display: none;
+    }
+
+    .header > h1 {
+        text-align: left;
+        margin-left: 20px;
     }
 }
